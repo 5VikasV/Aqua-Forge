@@ -145,3 +145,11 @@ The first release of Aqua Forge includes only six screens:
 6. Project Workspace
 
 Everything else is planned for future releases.
+
+## Adaptive Discovery
+
+Before generating a blueprint, Aqua Forge asks intelligent follow-up questions based on the project.
+
+The questions are dynamically generated and change depending on the project type.
+
+The goal is to fully understand the project before making engineering recommendations.
