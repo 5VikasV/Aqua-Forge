@@ -62,3 +62,13 @@ Generate the system architecture, database design, APIs, and folder structure.
 🚀 Blueprint
 
 Generate the final engineering blueprint ready for development.
+
+## Screen 2 - AI Discovery
+
+Purpose:
+
+Understand the project before planning.
+
+The user answers a series of adaptive questions generated from the project description.
+
+Only one question is shown at a time to keep the experience simple and focused.
