@@ -44,7 +44,12 @@ The first version of Aqua Forge focuses on solving one problem:
 
 ### User Flow
 
-1. User enters a project idea.
+1. The user provides:
+
+- Project Name
+- Detailed Project Description
+
+Aqua Forge analyzes the idea and generates a set of adaptive questions before beginning project planning.
 2. Aqua Forge analyzes the idea.
 3. It generates:
    - Project Overview
