@@ -88,3 +88,22 @@ Instead of generating code immediately, it helps developers understand:
 - What to build next
 
 Its goal is not to replace developers, but to guide them through the engineering process from idea to execution.
+
+## Final Output
+
+When the user completes the Idea Forge process, Aqua Forge generates a complete project blueprint containing:
+
+- Problem Statement
+- Project Vision
+- Core Features
+- User Personas
+- Recommended Tech Stack
+- Folder Structure
+- Database Design
+- API Endpoints
+- System Architecture
+- Development Roadmap
+- Risks & Challenges
+- Future Improvements
+
+The user leaves with a clear engineering plan instead of a blank page.
