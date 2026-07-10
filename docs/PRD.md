@@ -107,3 +107,23 @@ When the user completes the Idea Forge process, Aqua Forge generates a complete 
 - Future Improvements
 
 The user leaves with a clear engineering plan instead of a blank page.
+
+## Core Feature
+
+### Project Clarity Report
+
+Before generating any blueprint, Aqua Forge evaluates the project idea and generates a clarity report.
+
+The report includes:
+
+- Clarity Score
+- Complexity
+- Uniqueness
+- Existing Competitors
+- Strengths
+- Weaknesses
+- Opportunities
+- Estimated Development Time
+- Suggested Improvements
+
+Only after refining the idea does Aqua Forge generate the engineering blueprint.
