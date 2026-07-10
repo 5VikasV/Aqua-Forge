@@ -75,6 +75,14 @@ Aqua Forge provides direction.
 Instead of generating code immediately, it helps developers understand:
 
 - What to build
+
+## Product Principles
+
+1. Understand before generating.
+2. Ask before suggesting.
+3. Research before planning.
+4. Guide instead of replacing.
+5. Every recommendation should have a reason.
 - Why to build it
 - How to build it
 - What to build next
