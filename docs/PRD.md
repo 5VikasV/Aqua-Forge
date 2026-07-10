@@ -132,3 +132,16 @@ The report includes:
 - Suggested Improvements
 
 Only after refining the idea does Aqua Forge generate the engineering blueprint.
+
+## MVP Scope
+
+The first release of Aqua Forge includes only six screens:
+
+1. Landing Page
+2. Project Input
+3. Project Analysis
+4. Project Canvas
+5. Blueprint Export
+6. Project Workspace
+
+Everything else is planned for future releases.
