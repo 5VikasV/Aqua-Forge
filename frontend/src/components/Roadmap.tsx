@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import { roadmap } from "../data/roadmap";
 
 function Roadmap() {
@@ -5,7 +6,13 @@ function Roadmap() {
     <section className="bg-slate-900 text-white py-28 px-6">
       <div className="max-w-5xl mx-auto">
 
-        <div className="text-center mb-20">
+        <motion.div
+          className="text-center mb-20"
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.7 }}
+        >
           <p className="text-cyan-400 uppercase tracking-[0.3em] font-semibold mb-4">
             Future Vision
           </p>
@@ -13,14 +20,30 @@ function Roadmap() {
           <h2 className="text-5xl font-bold">
             Our Roadmap
           </h2>
-        </div>
+        </motion.div>
 
         <div className="relative border-l-2 border-cyan-500 ml-6">
 
-          {roadmap.map((item) => (
-            <div key={item.year} className="relative mb-16 pl-12">
+          {roadmap.map((item, index) => (
+            <motion.div
+              key={item.year}
+              className="relative mb-16 pl-12"
+              initial={{ opacity: 0, x: -40 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{
+                duration: 0.6,
+                delay: index * 0.2,
+              }}
+            >
 
-              <div className="absolute -left-[14px] top-2 w-6 h-6 rounded-full bg-cyan-400"></div>
+              <motion.div
+                className="absolute -left-[14px] top-2 w-6 h-6 rounded-full bg-cyan-400"
+                whileHover={{
+                  scale: 1.3,
+                  boxShadow: "0 0 20px rgba(34,211,238,0.8)",
+                }}
+              />
 
               <p className="text-cyan-400 font-bold text-lg">
                 {item.year}
@@ -34,7 +57,7 @@ function Roadmap() {
                 {item.description}
               </p>
 
-            </div>
+            </motion.div>
           ))}
 
         </div>

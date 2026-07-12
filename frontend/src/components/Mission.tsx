@@ -1,8 +1,15 @@
+import { motion } from "framer-motion";
+
 function Mission() {
   return (
     <section className="bg-slate-950 text-white py-28 px-6">
-      <div className="max-w-5xl mx-auto text-center">
-
+      <motion.div
+        className="max-w-5xl mx-auto text-center"
+        initial={{ opacity: 0, y: 60 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.3 }}
+        transition={{ duration: 0.8 }}
+      >
         <p className="text-cyan-400 uppercase tracking-[0.3em] font-semibold mb-4">
           Our Mission
         </p>
@@ -23,8 +30,7 @@ function Mission() {
           governments, and organizations understand, monitor, and protect
           our oceans.
         </p>
-
-      </div>
+      </motion.div>
     </section>
   );
 }
