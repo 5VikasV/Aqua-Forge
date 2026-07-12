@@ -1,31 +1,6 @@
-function Roadmap() {
-  const roadmap = [
-    {
-      year: "2026",
-      title: "Research",
-      description:
-        "Research marine ecosystems, AI models and global ocean datasets.",
-    },
-    {
-      year: "2027",
-      title: "Prototype",
-      description:
-        "Develop the first AI-powered ocean intelligence platform.",
-    },
-    {
-      year: "2028",
-      title: "Pilot Deployment",
-      description:
-        "Deploy prototypes with research institutions and conservation teams.",
-    },
-    {
-      year: "2030",
-      title: "Global Marine Network",
-      description:
-        "Connect satellites, sensors, AI and researchers into one ecosystem.",
-    },
-  ];
+import { roadmap } from "../data/roadmap";
 
+function Roadmap() {
   return (
     <section className="bg-slate-900 text-white py-28 px-6">
       <div className="max-w-5xl mx-auto">
